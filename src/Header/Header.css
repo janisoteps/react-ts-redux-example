@@ -1,0 +1,20 @@
+@value colors: '../common/colors.css';
+@value hackerNewsOrange from colors;
+
+
+.Header {
+  width: 100%;
+  height: 80px;
+  padding-top: 25px;
+}
+
+
+.Header__orange-border {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: hackerNewsOrange;
+  left: 0;
+  right: 0;
+  top: 0;
+}

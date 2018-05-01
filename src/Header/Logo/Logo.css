@@ -1,0 +1,13 @@
+@value colors: '../../common/colors.css';
+@value hackerNewsOrange from colors;
+
+
+.Logo {
+  background-color: #FA7A48;
+  color: #fff;
+  padding: 8px;
+  width: 25px;
+  height: 25px;
+  font-size: 23px;
+  text-align: center;
+}

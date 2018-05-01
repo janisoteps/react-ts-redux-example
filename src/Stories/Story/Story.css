@@ -1,0 +1,36 @@
+@value colors: '../../common/colors.css';
+@value hackerNewsOrange from colors;
+
+.Story {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.Story__title {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+a.Story__url {
+  color: #4b4a4f;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+a.Story__url:hover {
+  color: hackerNewsOrange;
+}
+
+.Story__metadata-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.Story__metadata {
+  color: #aaafc6;
+  padding: 0 10px 0 0;
+}
